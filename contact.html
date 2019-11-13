@@ -5,17 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact Info</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
+    <div class="wrapper">
+        <div class="top-bar">
+                <header class="header-content">
+                        <h1>Christopher Ellis</h1>
+                        <section class="nav-links">
+                            <a id="about-me" href="index.html">About</a> |
+                            <a id="portfolio" href="portfolio.html">Portfolio</a> |
+                            <a id="contact" href="contact.html">Contact</a> 
+                        </section>
+                </header>
+        </div>    
     
-    <section id="contact-info">
-        <h2>Contact Info</h2>
-        <ul class="contact-lists">
-            <li><strong>Email:</strong> <a href="mailto: christopher.ryan.ellis@gmail.com">christopher.ryan.ellis@gmail.com</a></li>
-            <li><strong>Github:</strong> <a href="https://github.com/Arnette110" target="_blank">Arnette110</a></li>
-            <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-        </ul>
-    </section>    
-    
+
+        <div class="container">
+            <section class="main-content">
+                
+                <h2>Contact</h2>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="John Doe">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="example@gmail.com">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                    <button type="submit" value="send email">Submit</button>
+                </form>
+                
+            </section>
+        </div>
+        
+        <footer id="footer">
+            copyright and such
+        </footer>
+
+        
+    </div>
+  
 </body>
 </html>
