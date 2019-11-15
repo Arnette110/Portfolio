@@ -179,6 +179,7 @@ img {
     clear: both;
     text-align: center;
     background: #666666;
+    color: #ffffff;
     flex-shrink: 0;
 }
 /* footer */
